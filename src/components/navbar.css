@@ -13,22 +13,19 @@
   width: 100%;
   top: 0px;
   left: 0px;
-  min-width: 215px;
   background-color: #fff;
   box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
 }
   
-
 .links-container{
-  position: fixed;
-  width: 100%;
+  display: flex;
+  position: absolute;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  display: flex;
-}
-
-.links-container{
-  left: 50%;
+  justify-content: flex-end;
+  width: 1440px;
+  right: 30px;
+  z-index: -1;
 }
 
 .logo-container{
@@ -54,15 +51,20 @@
   text-decoration: none;
   line-height: 70px;
   vertical-align: middle;
+  margin-right: 18px;
+}
+
+.links-container > div > a:hover {
+margin: 0;
 }
 
 .links-container > div {
-  width: 10%;
+  width: 140px;
   text-align: center;
 }
 
-.links-container:nth-child(4) > div{
-  width: 130px;
+.links-container > div:nth-child(5) {
+  width: 90px;
 }
 
 #arrow {

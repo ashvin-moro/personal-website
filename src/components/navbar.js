@@ -53,7 +53,7 @@ const NavBar = () => {
         {sections.map((item, index) => {
           return (
             <div key={index}>
-              <a href={item.href}>{item.title} <span id="arrow">></span>
+              <a href={item.href}>{item.title} <span id="arrow">▾</span>
               </a>
             </div>)
         })}
