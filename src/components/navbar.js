@@ -34,8 +34,7 @@ const NavBar = () => {
   });
 
   window.addEventListener('scroll', function () {
-    console.log(window.scrollY)
-    if (window.scrollY !== 0) {
+    if (window.scrollY !== 0 && 1) {
       setHeader("navigation-down")
     }
     else {
