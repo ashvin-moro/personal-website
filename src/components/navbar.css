@@ -1,0 +1,84 @@
+.navigation{
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  min-width: 215px;
+}
+
+.navigation-down {
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  min-width: 215px;
+  background-color: #fff;
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
+}
+  
+
+.links-container{
+  position: fixed;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  display: flex;
+}
+
+.links-container{
+  left: 50%;
+}
+
+.logo-container{
+  position: fixed;
+  width: 340px;
+  height: 75px;
+  float: left;
+}
+
+.logo-container > a > img{
+  height: 50px;
+  float: left;
+  margin: 10px 0px 0px 20px
+}
+
+.links-container > div > a > img{
+  width: 180px;
+  margin: 50px 0px 30px 0px;
+}
+
+.links-container > div > a {
+  color: black;
+  text-decoration: none;
+  line-height: 70px;
+  vertical-align: middle;
+}
+
+.links-container > div {
+  width: 10%;
+  text-align: center;
+}
+
+.links-container:nth-child(4) > div{
+  width: 130px;
+}
+
+#arrow {
+  display: none;
+}
+
+.links-container > div > a:hover #arrow {
+  display: inline;
+  animation: FadeIn 1.5s;
+}
+
+@keyframes FadeIn {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}

@@ -1,0 +1,25 @@
+.App{
+  position: absolute;
+  height: 3900px;
+  overflow: scroll;
+  top: 0px;
+  left: 0px;
+  background: url("./assets/background.svg");
+  background-repeat: no-repeat;
+  background-color: lightblue;
+}
+
+.containers{
+  position: relative;
+  display: grid;
+  height: 100px;
+}
+
+.containers > div{
+  height: 650px;
+  width: 100vw;
+}
+
+.containers:nth-child(1) > div > h1 {
+  margin-top: 80px;
+}
