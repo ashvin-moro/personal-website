@@ -1,8 +1,27 @@
 .footer-container{
   position: absolute;
+  display: flex;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: #fff;
-  height: 200px;
+  height: 250px;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+
+.left-side{
+  position: relative;
+  left: 20px;
+  text-align: left;
+}
+
+.center{
+  text-align: center;
+}
+
+.right-side{
+  position: relative;
+  right: 20px;
+  text-align: right;
 }
