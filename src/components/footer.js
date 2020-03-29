@@ -1,38 +1,43 @@
 import React from "react"
 import "./footer.css"
-import facebookIcon from "../assets/facebook-icon.png"
-import instagramIcon from "../assets/instagram-icon.png"
-import linkedinIcon from "../assets/linkedin-icon.png"
-import resumeIcon from "../assets/resume-icon.png"
-import githubIcon from "../assets/github-icon.png"
-import signature from "../assets/signature.png"
-import resume from "../assets/Resume.pdf"
+import facebookIcon from "../assets/footer/facebook-icon.png"
+import instagramIcon from "../assets/footer/instagram-icon.png"
+import linkedinIcon from "../assets/footer/linkedin-icon.png"
+import resumeIcon from "../assets/footer/resume-icon.png"
+import githubIcon from "../assets/footer/github-icon.png"
+import signature from "../assets/footer/signature.png"
+import resume from "../assets/footer/Resume.pdf"
 
 let leftSide = [
   {
     href: resume,
     src: resumeIcon,
-    class: "resume-icon"
+    class: "resume-icon",
+    alt: "resume icon"
   },
   {
     href: "https://www.linkedin.com/in/ashvin-moro-00b57a18a/",
     src: linkedinIcon,
-    class: "linkedin-icon"
+    class: "linkedin-icon",
+    alt: "linkedin logo"
   },
   {
     href: "https://github.com/ashvin-moro",
     src: githubIcon,
-    class: "github-icon"
+    class: "github-icon",
+    alt: "github logo"
   },
   {
     href: "https://www.facebook.com/ashvin.moro.1",
     src: facebookIcon,
-    class: "facebook-icon"
+    class: "facebook-icon",
+    alt: "facebook logo"
   },
   {
     href: "https://www.instagram.com/ashvinmoro/",
     src: instagramIcon,
-    class: "instagram-icon"
+    class: "instagram-icon",
+    alt: "instagram logo"
   }
 ]
 
