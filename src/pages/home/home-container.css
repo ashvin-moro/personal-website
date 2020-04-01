@@ -1,0 +1,14 @@
+.containers{
+  position: relative;
+  display: grid;
+  height: 100px;
+  width: 100%;
+}
+
+.containers > div{
+  height: 650px;
+}
+
+.home-container > h1{
+  margin-top: 70px;
+}

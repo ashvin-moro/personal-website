@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from "../../components/footer"
+import "./home-container.css"
 
 let containers = [
   {
